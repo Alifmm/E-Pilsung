@@ -18,7 +18,8 @@ class DatabaseSeeder extends Seeder
         $this->call([
             CabangsTableSeeder::class,
             UserTableSeeder::class,
-            TestTableSeeder::class
+            TestTableSeeder::class,
+            ShowVoteSeeder::class
         ]);
     }
 }
