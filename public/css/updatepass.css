@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 4px 0 #00000025;
+    position: relative;
+    width: 100%;
+}
+
+.header-logo img {
+    height: 2rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    background: #FFFF;
+    padding: 0rem;
+    margin: 80px auto;
+    border-radius: 5px;
+    background-color: #374686;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-name {
+    color: rgb(76, 72, 72);
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+}
+.profile-dash {
+    padding-top: 0.4rem;
+    color: rgb(76, 72, 72);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.profile-logout {
+    color: rgb(76, 72, 72);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.profile-logout:hover {
+    color: rgb(76, 72, 72);
+    text-decoration: none;
+}
+
+.form-title-box {
+    font-size: larger;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 15px;
+    color: #FFF8F0;
+    background-color: #FFC40D;
+    border-radius: 5px;
+    
+}
+
+.form-text {
+    text-align: center;
+    font-size: 14px;
+    color: #FFF8F0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
+.form-text h5 {
+    font-size: 1rem; 
+    color: #FFF8F0; 
+    margin-bottom: 15px; 
+    font-weight: 500; 
+}
+
+
+.main-user-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.user-input-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    padding-bottom: 5px;
+    padding: 10px;
+    font-size: smaller;
+}
+
+.user-input-box label {
+    width: 100%;
+    color: #FFF8F0;
+    font-size: 14px; 
+    font-weight: 500;
+    text-align: left; 
+}
+
+.user-input-box input {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 0px solid #8C8F93;
+    padding: 0 10px;
+    margin: 5px 0 5px 0;
+}
+
+
+
+.form-submit-btn input {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 15px;.form-submit-btn {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .form-submit-btn button {
+        width: 100%; 
+        font-size: 14px;
+        padding: 15px;
+        border: none;
+        color: #FFFFFF;
+        background: #FFC40D;
+        cursor: pointer;
+        border-radius: 5px; 
+    }
+    
+    .btn-danger {
+        font-weight: 800;
+    }
+    
+    .btn-danger:hover {
+        color: #dfd4d4;
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.6rem 2rem;
+    text-wrap: nowrap;
+    text-decoration: none;
+    outline: 0;
+    border-radius: 6px;
+}
+
+.btn-danger {
+    color: #FFFFFF;
+    background-color: #FFC40D;
+    font-size: 14px;
+    font-weight: 800;
+    cursor: pointer;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+}
+
+.btn-danger:hover {
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+    background: #e4ae0d;
+}
+.alert {
+    margin: 2rem;
+}
+.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.alert-danger ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.alert-danger p {
+    margin-bottom: 0.5rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .btn {
+        padding: 0.5rem 1.5rem;
+    }
+
+    .btn-danger {
+        padding: 8px 16px;
+    }
+}
+
+.input-group-append button {
+    border: none;
+    background: white;
+    cursor: pointer;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.input-group-append button:focus {
+    outline: none; 
+}
+

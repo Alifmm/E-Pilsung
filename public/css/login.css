@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/img/bg.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  background: #FFFF;
+  padding: 20px; 
+  margin: 0 50px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,.2); 
+}
+
+.form-title {
+  font-size: 14px;
+  font-weight: 0px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 0px;
+  color: #374686;
+}
+
+.form-text {
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 11px;
+  color: #666666;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-user-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.user-input-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 15px;
+  font-size: smaller;
+}
+
+.user-input-box label {
+  width: 100%;
+  color: grey;
+  font-size: smaller;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.user-input-box input {
+  height: 40px;
+  width: 100%;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #8C8F93;
+  padding: 0 10px;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.form-submit-btn {
+  margin-top: 20px;
+}
+
+.form-submit-btn input {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+  color: #FFFFFF;
+  background: #FFC40D;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,.3); /* Tambahkan box-shadow pada tombol */
+}
+
+@media (max-width: 768px) {
+  /* Adjustments for smaller screens (e.g., mobile) */
+  .container {
+    padding: 15px; /* Reduce padding for tighter layout */
+  }
+  .user-input-box label {
+    font-size: 11px;
+  }
+}
