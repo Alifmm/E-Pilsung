@@ -209,14 +209,6 @@
                 if (!confirmation) {
                     event.preventDefault();
                 }
-
-                // Log the submission data for debugging
-                console.log(`Pusat Candidate ID: ${pusatCandidateId}`);
-                console.log(`Daerah Candidate ID: ${daerahCandidateId}`);
-                console.log(`Pusat Candidate Name: ${pusatCandidateName}`);
-                console.log(`Daerah Candidate Name: ${daerahCandidateName}`);
-                console.log(`Pusat Candidate Region: ${pusatCandidateRegion}`);
-                console.log(`Daerah Candidate Region: ${daerahCandidateRegion}`);
             });
 
             const voteButtons = document.querySelectorAll(".btn-white");
